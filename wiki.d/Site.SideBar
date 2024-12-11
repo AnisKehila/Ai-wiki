@@ -1,0 +1,33 @@
+version=pmwiki-2.3.38 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+author=Anis
+charset=ISO-8859-1
+csum=
+host=::1
+name=Site.SideBar
+passwdedit=@_site_edit
+rev=7
+targets=Main.HomePage,Main.Fundamentals,Main.History,Main.Applications,Main.Challenges,Site.SideBar
+text=* [[Main/HomePage| Home]]%0a* [[Main/Fundamentals | AI Fundamentals]]%0a* [[Main/History| History of AI]]%0a* [[Main/Applications | Applications & Trends]]%0a* [[Main/Challenges | Challenges & Ethics]]%0a%0a%0a%25right%25 [-[[Site.SideBar?action=edit | edit SideBar]]-]
+time=1733171481
+author:1733171481=Anis
+diff:1733171481:1733171448:=1c1%0a%3c * [[Main/HomePage| Home]]%0a---%0a> * [[Main/Home]]%0a
+host:1733171481=::1
+author:1733171448=Anis
+diff:1733171448:1733171419:=1c1%0a%3c * [[Main/Home]]%0a---%0a> * [[Main/HomePage| Home]]%0a
+host:1733171448=::1
+author:1733171419=Anis
+diff:1733171419:1733171085:=2,5c2,7%0a%3c * [[Main/Fundamentals | AI Fundamentals]]%0a%3c * [[Main/History| History of AI]]%0a%3c * [[Main/Applications | Applications & Trends]]%0a%3c * [[Main/Challenges | Challenges & Ethics]]%0a---%0a> * [[Fundamentals | AI Fundamentals]]%0a> * [[Historical Context | History of AI]]%0a> * [[Applications and Trends | Applications & Trends]]%0a> * [[Challenges and Ethics | Challenges & Ethics]]%0a> * [[Resources | Learn More]]%0a> %0a
+host:1733171419=::1
+author:1733171085=Anis
+diff:1733171085:1733171021:=1c1%0a%3c * [[Main/HomePage| Home]]%0a---%0a> * [[HomePage | Home]]%0a
+host:1733171085=::1
+author:1733171021=Anis
+diff:1733171021:1733170731:=1c1%0a%3c * [[HomePage | Home]]%0a---%0a> * [[Home | Home]]%0a
+host:1733171021=::1
+author:1733170731=Anis
+diff:1733170731:1733170671:=1c1%0a%3c * [[Home | Home]]%0a---%0a> * [[Main/HomePage | Home]]%0a
+host:1733170731=::1
+author:1733170671=Anis
+diff:1733170671:1718338390:=1,8c1,19%0a%3c * [[Main/HomePage | Home]]%0a%3c * [[Fundamentals | AI Fundamentals]]%0a%3c * [[Historical Context | History of AI]]%0a%3c * [[Applications and Trends | Applications & Trends]]%0a%3c * [[Challenges and Ethics | Challenges & Ethics]]%0a%3c * [[Resources | Learn More]]%0a%3c %0a%3c %0a---%0a> * [[Main/HomePage]]%0a> * [[Main/WikiSandbox]]%0a> %0a> %25sidehead%25 [[PmWiki/PmWiki]]%0a> * [[PmWiki/Initial Setup Tasks]]  %0a> * [[PmWiki/Basic Editing]]%0a> * [[PmWiki/Documentation Index]]%0a> * [[PmWiki/FAQ | PmWiki FAQ ]]%0a> * [[PmWiki/PmWikiPhilosophy]]%0a> * [[PmWiki/Release Notes]]%0a> * [[PmWiki/ChangeLog]]%0a> %0a> %25sidehead%25 [[https://www.pmwiki.org | pmwiki.org ]]%0a> * [[Cookbook:Cookbook | Cookbook (addons) ]]%0a> * [[Skins:Skins | Skins (themes) ]]%0a> (:if auth edit Site.SideBar:)%0a> * [[PITS:PITS | PITS (issue tracking) ]]%0a> * [[PmWiki/Mailing Lists|PmWiki Mailing Lists]]%0a> (:ifend:)%0a
+host:1733170671=::1

@@ -1,0 +1,308 @@
+/**************************************************************
+**  bluehead.css
+**  Copyright (c) 2008 Ian MacGregor
+**  This file is part of the bluehead skin for PmWiki and
+**  can be redistributed and/or modified under the terms
+**  of the GNU General Public License as published by the
+**  Free Software Foundation; either version 2 of the License,
+**  or (at your option) any later version.
+***************************************************************/
+
+body {
+font-family: Verdana,Helvetica,Sans-Serif;
+/* font-family: Verdana,Tahoma,Arial,sans-serif; */
+line-height: 1.2em;
+background-color: #8f8e8e;
+color: #1a1a1a;
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+}
+
+#maintable {
+border-top: 1px solid #111111;
+border-right: 1px solid #111111;
+border-bottom: 1px solid #111111;
+border-left: 1px solid #111111;
+}
+
+#maintd {
+padding: 10px 10px 10px 10px;
+}
+
+#header {
+height: 100px;
+background-color: #000f3e;
+background: url(header.png) repeat-x;
+color: #ffffff;
+font-family: Georgia, Arial, sans-serif;
+font-size: 200%;
+font-weight: normal;
+padding: 5px 5px 5px 10px
+}
+
+#header a:link{
+color: #ffffff;
+text-decoration: none;
+}
+
+#header a:focus {
+color: #ffffff;
+text-decoration: underline;
+}
+
+#header a:hover {
+color: #ffffff;
+text-decoration: underline;
+}
+
+#header a.createlinktext {
+color: red;
+}
+
+#searchbox {
+height: 100px;
+background-color: #000f3e;
+background: url(header.png) repeat-x;
+color: #ffffff;
+font-size: 100%;
+text-align: right;
+padding: 5px 10px 5px 5px;
+}
+
+#searchbox a:link{
+color: #ffffff;
+text-decoration: none;
+}
+
+#searchbox a:focus {
+color: #ffffff;
+text-decoration: underline;
+}
+
+#searchbox a:hover {
+color: #ffffff;
+text-decoration: underline;
+}
+
+#searchbox a.createlinktext {
+color: red;
+}
+
+#pageactions {
+background-color: #ffffff;
+color: #000000;
+font-size: 80%;
+text-align: right;
+padding: 0 2px 0 2px;
+}
+
+#pageactions a:link{
+color: #0009b3;
+text-decoration: none;
+}
+
+#pageactions a:focus {
+color: #990000;
+text-decoration: underline;
+}
+
+#pageactions a:hover {
+color: #990000;
+text-decoration: underline;
+}
+
+#pageactions a.createlinktext {
+color: red;
+}
+
+#menu {
+background: #ffffff;
+color: #000000;
+font-size: 85%;
+overflow: hidden;
+margin: 0 0 0 0;
+padding: 5px 5px 5px 2px;
+}
+
+#menu a:link {
+text-decoration: none;
+color: #0009b3;
+}
+
+#menu a:focus {
+text-decoration: underline;
+color: #990000;
+}
+
+#menu a:hover {
+text-decoration: underline;
+color: #990000;
+}
+
+#menu a.createlinktext {
+color: red;
+}
+
+#menu ul {
+list-style-type: square;
+list-style-image: none;
+}
+
+#pagetitle {
+font-family: Georgia, Arial, sans-serif;
+font-size: 140%;
+padding: 0 0 0 0;
+}
+
+#modified {
+color: #4d4d4d;
+font-size: 85%;
+margin: 2px 0 0 0;
+}
+
+#pagetext {
+background-color: #ffffff;
+color: #000000;
+font-size: 85%;
+padding: 5px 2px 5px 5px;
+}
+
+#pagetext a:link {
+text-decoration: none;
+color: #0009b3;
+}
+
+#pagetext a:focus {
+text-decoration: underline;
+color: #990000;
+}
+
+#pagetext a:hover {
+text-decoration: underline;
+color: #990000;
+}
+
+#pagetext a.createlinktext {
+color: red;
+}
+
+#sitefooter {
+border-top: 1px solid #404040;
+background-color: #ffffff;
+color: #000000;
+font-size: 85%;
+color: #000000;
+text-align: center;
+padding: 5px 2px 0 2px;
+}
+
+#sitefooter a:link{
+color: #0009b3;
+text-decoration: none;
+}
+
+#sitefooter a:focus {
+color: #990000;
+text-decoration: underline;
+}
+
+#sitefooter a:hover {
+color: #990000;
+text-decoration: underline;
+}
+
+#sitefooter a.createlinktext {
+color: red;
+}
+
+.stress {
+font-size: 120%;
+font-weight: 600;
+margin: 15px;
+}
+
+#wikiedit textarea {
+width: 100%;
+}
+
+table {
+border-collapse: collapse;
+border-color: #b3b3b3;
+background-color: #ffffff;
+}
+
+td {
+padding: 3px 5px 3px 5px;
+}
+
+pre {
+color: #1a1a1a;
+border: 1px solid #b3b3b3;
+font-family:'Lucida Console','Courier New',Courier, monospace;
+font-size: 100%;
+line-height:1.4em;
+padding: 1px 5px 1px 5px;
+overflow: auto;
+}
+
+code {
+font-family:'Lucida Console','Courier New',Courier, monospace;
+font-size: 100%;
+color: #1a1a1a;
+overflow: auto;
+}
+
+hr {
+width: 100%;
+border: 1px solid #b3b3b3;
+}
+
+h1,h2,h3,h4,h5,h6 {
+line-height: 10px;
+}
+
+h1 {
+font-size: 20px;
+}
+
+h2 {
+font-size: 18px;
+}
+
+h3 {
+font-size: 16px;
+}
+
+h4 {
+font-size: 14px;
+}
+h5 {
+font-size: 12px;
+}
+
+h6 {
+font-size: 10px;
+}
+
+a.createlinktext {
+color: red;
+}
+
+ol {
+margin: 0px 0px 10px 22px;
+padding: 0px;
+}
+
+ol { list-style-type:decimal; }
+ol ol { list-style-type:lower-alpha; }
+ol ol ol { list-style-type:lower-roman; }
+ol ol ol ol { list-style-type:decimal; }
+ol ol ol ol ol { list-style-type:lower-alpha; }
+ol ol ol ol ol ol { list-style-type:lower-roman; }
+
+ul {
+list-style-type: square;
+list-style-image: url("bullet.gif");
+margin: 0px 0px 10px 14px;
+padding: 0px;
+}

@@ -1,0 +1,20 @@
+version=pmwiki-2.3.38 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+author=Anis
+charset=ISO-8859-1
+csum=
+host=::1
+name=Main.WikiSandbox
+rev=6
+targets=PmWiki.TextFormattingRules
+text=Feel free to use this page to experiment with the [[PmWiki/Text Formatting Rules]].  Just click the "Edit Page" link at the bottom of the page.%0a----%0aooh
+time=1733169546
+author:1733169546=Anis
+diff:1733169546:1733169534:=
+host:1733169546=::1
+author:1733169534=Anis
+diff:1733169534:1733169528:=
+host:1733169534=::1
+author:1733169528=
+diff:1733169528:1093548433:=3d2%0a%3c ooh%0a\ No newline at end of file%0a
+host:1733169528=::1

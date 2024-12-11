@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<title>$WikiTitle - {$Titlespaced}</title>
+<link rel='stylesheet' href='$SkinDirUrl/bluehead.css' type='text/css' />
+<!--HTMLHeader-->
+</head>
+<body>
+<br />
+<table id="maintable" width="85%" align="center">
+<tr>
+<td id="maintd">
+<table width="100%" align="center">
+<tr>
+<td id="header">
+<!--PageHeaderFmt-->
+<a href='{$ScriptUrl}'><img src='$PageLogoUrl' alt='$WikiTitle' border='0' /></a>
+</td>
+<!--/PageHeaderFmt-->
+<td id="searchbox">
+<form action='{$ScriptUrl}'>
+<input type='hidden' name='n' value='{$FullName}' />
+<input type='hidden' name='action' value='search' />
+<a href='{$ScriptUrl}/$[{$SiteGroup}/Search]'>$[Search]</a>:
+<input type='text' name='q' value='' class='inputbox searchbox' />
+<input type='submit' class='inputbutton searchbutton' value='$[Go]' />
+</form>
+</td>
+</tr><tr>
+<!--PageActionFmt-->
+<td id="pageactions" colspan="2">
+<a rel="nofollow" href="$PageUrl">$[View]</a>&nbsp; 
+<a rel="nofollow" href="{$PageUrl}?action=edit">$[Edit]</a>&nbsp; 
+<a rel="nofollow" href="{$PageUrl}?action=attr">$[Attributes]</a>&nbsp; 
+<a rel="nofollow" href="{$PageUrl}?action=diff">$[History]</a>&nbsp; 
+<a rel="nofollow" href="{$PageUrl}?action=upload">$[Attach]</a>&nbsp; 
+<a rel="nofollow" href="{$PageUrl}?action=print" target="_blank">$[Print]</a>
+</td>
+</tr><tr>
+<!--PageLeftFmt-->
+<td id="menu" width="15%" valign="top">
+<!--wiki:{$Group}.SideBar {$SiteGroup}.SideBar-->
+<!--/PageLeftFmt-->
+</td>
+<td id="pagetext" valign="top">
+<!--PageTitleFmt-->
+<span id="pagetitle">
+<a href='{$ScriptUrl}/{$Group}'>{$Groupspaced}</a> / {$Title}
+</span><br />
+<span id="modified">
+$[Page modified on {$LastModified}]
+</span>
+<!--PageText-->
+</td>
+</tr><tr>
+<td id="sitefooter" colspan="2" valign="top">
+<a rel="nofollow" href='{$PageUrl}?action=edit'>$[Edit]</a> - 
+<a rel="nofollow" href='{$PageUrl}?action=diff'>$[History]</a> - 
+<a rel="nofollow" href='{$PageUrl}?action=print' target='_blank'>$[Print]</a> - 
+<a href='{$ScriptUrl}/$[{$Group}/RecentChanges]'>$[Recent Changes]</a> - 
+<a href='{$ScriptUrl}/$[{$SiteGroup}/Search]'>$[Search]</a>
+</td>
+</tr>
+</table>
+<!--PageFooterFmt-->
+<!--HTMLFooter-->
+</td>
+</tr>
+</table>
+<br />
+</body>
+</html>
